@@ -1,0 +1,4 @@
+services:
+    twig.controller.exception:
+        class: JDecool\Bundle\ExceptionHelpBundle\Controller\ExceptionController
+        arguments: ["@twig", "%kernel.debug%"]
